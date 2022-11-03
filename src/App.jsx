@@ -5,9 +5,13 @@ import Three from './three';
 
 function App() {
   return (
-    <div className="header">
-      <h1>hello</h1>
-      <Canvas id="three-canvas-container">
+    <div className="app">
+      <div className="header">
+        <h1>hello</h1>
+
+        <h1>hello</h1>
+      </div>
+      <Canvas id="three-canvas-container" shadows>
         <Suspense fallback={<></>} />
         <Three />
       </Canvas>
