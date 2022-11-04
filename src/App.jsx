@@ -11,7 +11,7 @@ function App() {
 
         <h1>hello</h1>
       </div>
-      <Canvas id="three-canvas-container" shadows>
+      <Canvas id="three-canvas-container" shadows="PCFsoft">
         <Suspense fallback={<></>} />
         <Three />
       </Canvas>
